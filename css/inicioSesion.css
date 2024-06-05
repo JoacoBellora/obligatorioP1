@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    width: 65vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow:  #000 .0625rem .0625rem 0.5125rem;
+    background-color: #fff;
+
+    & div{
+        width: 70%;
+        
+        display: flex;
+        justify-content: center;
+        margin: .1875rem;
+
+        & label{
+            width: 50%;
+        }
+    }
+}
